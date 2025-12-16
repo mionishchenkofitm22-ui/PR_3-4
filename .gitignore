@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+logs/
+# keep placeholders
+!outputs/.gitkeep
+!logs/.gitkeep
+
+# keys: don't commit private material
+keys/*.pem
+keys/keystore.json
+!keys/.gitkeep
